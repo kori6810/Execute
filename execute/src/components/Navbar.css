@@ -29,6 +29,7 @@
   font-weight: 500;
 }
 .header .nav-menu a{
+  transition: all 0.3s;
   color: #ffffff;
 }
 
