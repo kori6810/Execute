@@ -28,8 +28,10 @@
 }
 
 .testimonials img {
-    border-radius: 50px;
+    border-radius: 50%;
     margin-top: -2rem;
+    width: 5rem;
+    aspect-ratio: 1;
 }
 
 
