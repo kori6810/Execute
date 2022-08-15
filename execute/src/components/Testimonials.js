@@ -6,28 +6,28 @@ import './Testimonials.css'
 
 const Testimonials = () => {
     return (
-        <div className='testimonials' id='testimonials'>
+        <div className='testimonials' id='Testimonials'>
             <div className='container'>
-                <h2>Testimonials</h2>
+                <h2>고객 평가</h2>
                 <span className='line'></span>
                 <div className='content'>
                     <div className='card'>
                         <img src='' alt='user1'/>
-                        <p>It is not every day that you come across a passionate and trustworthy financial advisor. John Doe is true professional who does his work really well. Thanks John!</p>
+                        <p>열정적이고 신뢰할 수 있는 재정 자문가를 매일 만나는 것은 아니다. John Doe는 그의 일을 정말 잘 하는 진정한 프로입니다. 고마워요, John!</p>
                         <p><span>Johnson.M.J.</span></p>
-                        <p>Director of "Financial Times"</p>
+                        
                     </div>
                     <div className='card'>
                         <img src='' alt='user1'/>
-                        <p>In just 2 very short meetings with John he managed to find the solution personally catered to my situation and expectations. Punctual, well informed and very reliable.</p>
-                        <p><span>Carol Harper</span></p>
-                        <p>Director at Risktec Solutions Ltd</p>
+                        <p>
+                        John과의 아주 짧은 두 번의 만남에서 그는 제 상황과 기대에 맞는 해결책을 찾을 수 있었습니다. 시간 엄수하고, 잘 알고, 매우 신뢰할 수 있습니다.</p> <p><span>Carol Harper</span></p>
+                        
                     </div>
                     <div className='card'>
                         <img src='' alt='user1'/>
-                        <p>A very professional financial advisor, who is true to his word. John has demonstrated a high amount of integrity in the time I have known him, and he is fast to respond to my concerns.</p>
+                        <p>매우 전문적인 재정 고문으로, 약속을 지켰습니다. John은 제가 그를 알던 시간 동안 매우 성실함을 보여주었고, 제 걱정에 빠르게 반응합니다.</p>
                         <p><span>Snow.J.R.</span></p>
-                        <p>Managing Director of BPW Global</p>
+                        
                     </div>
                 </div>
             </div>

@@ -3,14 +3,14 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero" id="Home">
       <div className="content">
-        <p>Call us</p>
-        <p>1-800-123-4567</p>
-        <p>Because Money</p>
-        <p>Doesn't come with instructions</p>
+        <p>전화 주세요</p>
+        <p>010-2251-6810</p>
+        <p>돈은 </p>
+        <p>지시와 함께 오지 않기 때문입니다</p>
         <button href="/" className="button">
-          Free Consultation
+          무료 상담
         </button>
        
       </div>
